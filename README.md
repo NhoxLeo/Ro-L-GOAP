@@ -48,6 +48,8 @@ No but it's quite close.
 >3. Create the Action class (preferably a struct) that can be created at runtime by LGOAPObject which then is passed on to any Agent's actions list. This is in addition to certain actions that an Agent might have to begin with.
 >
 >4. Write the actual planner that performs a state-space search. This part is easy, it's just boilerplate already provided within the research paper.
+>
+>5. Implement the same functionality within Unity's Jobs System for a performance boost like its AI planner currently does.
 
 
 # Created by Rohan.
