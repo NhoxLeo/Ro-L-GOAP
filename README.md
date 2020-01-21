@@ -1,6 +1,8 @@
 
 # Ro-L-GOAP
 
+>Dependencies: [SO-ReoderableList](https://github.com/herohiralal/ScriptableObject-ReorderableList) and [Essential Boilerplate](https://github.com/herohiralal/Essential-Boilerplate).
+
 ### What?
 
 Check [this](https://twitter.com/aigamedev/status/774190580410814464) out for a better understanding of what LGOAP is.
