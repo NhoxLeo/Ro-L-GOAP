@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6028389198854544672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d256b8c76f1c92439fc5a04000ec293, type: 3}
+  m_Name: Closed
+  m_EditorClassIdentifier: 
+  index: 1
+--- !u!114 &-5989209606528814557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d256b8c76f1c92439fc5a04000ec293, type: 3}
+  m_Name: Open
+  m_EditorClassIdentifier: 
+  index: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57c3d4166602984b9e58095d1c6de7b, type: 3}
+  m_Name: DoorStateValues
+  m_EditorClassIdentifier: 
+  SOList:
+  - {fileID: -6028389198854544672}
+  - {fileID: -5989209606528814557}
+  - {fileID: 9003159732755161661}
+--- !u!114 &9003159732755161661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d256b8c76f1c92439fc5a04000ec293, type: 3}
+  m_Name: Broken
+  m_EditorClassIdentifier: 
+  index: 3
