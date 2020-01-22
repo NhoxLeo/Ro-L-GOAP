@@ -42,8 +42,9 @@ No but it's quite close.
 
 >1. Create an interface that defines an action, with methods OnActionStart, OnActionOngoing, and OnActionEnd.
 >
->2. But more importantly, create a system that picks up any class that extends the said interface and presents all of them as an enumeration that you can choose from from within the editor.
->(I already have a plan on how to do this.)
+>2. ~~But more importantly, create a system that picks up any class that extends the said interface and presents all of them as an enumeration that you can choose from from within the editor.
+>(I already have a plan on how to do this.)~~
+>*DONE!* - SerializedInstance system included within an updated version of Essential Boilerplate can do exactly this.
 >
 >3. Create the Action class (preferably a struct) that can be created at runtime by LGOAPObject which then is passed on to any Agent's actions list. This is in addition to certain actions that an Agent might have to begin with.
 >
